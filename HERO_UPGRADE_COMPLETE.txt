@@ -1,0 +1,44 @@
+═══════════════════════════════════════════════════════════════
+  HERO CAROUSEL UPGRADE COMPLETE — Real Videos + Cinematic UI
+═══════════════════════════════════════════════════════════════
+
+✅ REAL CAR VIDEOS (Downloaded from Mixkit.co — royalty-free)
+   • hero-1.mp4 (2.8 MB) — Red sports car on curvy road at dawn
+   • hero-2.mp4 (2.6 MB) — Red sports car in underground carpark
+   • hero-3.mp4 (3.1 MB) — Aerial view of city traffic at night
+
+✅ CINEMATIC DESIGN IMPROVEMENTS
+
+   Layout:
+   • Left-aligned content (max-width 600px) — professional asymmetry
+   • Dense gradient overlay on left (text) → transparent on right (video)
+   • Ken Burns slow zoom effect on active video (scale 1.0 → 1.09 over 10s)
+   • Giant outlined slide numbers (01, 02, 03) bottom-right
+   • Japanese character watermark (海, 質, 世界) — decorative elegance
+
+   Typography:
+   • Eyebrow badge with pulsing dot
+   • Thin gold accent line separator
+   • Brand headline: 'Kaisei Decol' serif, 3–5.2rem responsive
+   • Gradient <em> highlights on keywords
+   • Tagline: uppercase, wide letter-spacing
+   • Description: clean sans-serif, high line-height
+
+   Bottom Bar (replaces dots):
+   • Progress bar — fills from 0→100% over 7 seconds
+   • Counter — "01 / 03" updates on slide change
+   • Prev/Next arrows — rounded glass-effect buttons
+
+✅ ANIMATIONS
+   • Slide 1: Staggered fadeUp (eyebrow → line → brand → tagline → desc → btns → stats)
+   • Slides 2 & 3: Single fade-up entrance via .slide-enter
+   • Progress bar: Linear fill animation, resets on each transition
+   • Video: Auto-pause outgoing, auto-play incoming
+
+✅ RESPONSIVE
+   • Mobile: Stack layout, hide Japanese deco, smaller slide numbers
+   • Stats: Wrap on mobile, hide dividers
+   • Buttons: Stack vertically on mobile
+   • Smaller nav arrows (36px vs 42px)
+
+═══════════════════════════════════════════════════════════════
